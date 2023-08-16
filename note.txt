@@ -1,0 +1,61 @@
+set up folders
+install package.json (npm init -y)
+set up main file
+install all packages(express, dotenv, mongoose, nodemon, bcryptjs, validator)
+set up basic express app
+error route
+create gitignore, .env files
+database connection
+
+set up all folders needed (models, controller, routes, middleware)
+create user schema 
+username, email, password
+set up routes for auth ('/register', '/login')
+
+set up register function
+hash users password (mongoose pre hook )
+
+error handler middleware
+
+set up login function
+create JWT and generate token (controller and instance methods)
+npm i jsonwebtoken
+create genereteToken Functuiom
+determine payload _id, email {userId : this._id, email: this.email}
+create proper jwt secret allkeysgenerator.com 
+
+
+
+set up authentication middleware
+check for token and verify 
+req.user = payload
+
+set up post schema 
+tags,  title, description, images, createdBy{type: mongoose.Types.ObjectId, re: 'Userf}, timestamps
+get user logged in
+
+setting up CRUD operations for Posts (get all posts, get single post, getAllusersPost, 
+get single post, create, delete and update)
+CREATING A STORY
+title, tag, description, createdAt
+createdBy -- req.user
+//image upload 
+
+
+populate createdBy field
+express-fileUpload and cloudinary for image upload
+
+security packages
+helmet
+cors
+express-rate-limit
+
+api test
+
+hosting
+check port setup
+check start script
+check .gitignore and .env
+set up node engine for render
+
+
